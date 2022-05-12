@@ -523,6 +523,7 @@ public class login implements ActionListener{
         msgFrame.setVisible(true);
 
         passChangeFrame.dispose();
+        loginFrame.dispose() ;
         loginForm();
     }
 }
